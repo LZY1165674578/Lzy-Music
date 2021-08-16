@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- 开发了几天，才发现浏览器被我设置了1.25倍，只能将错就错了，现在该网页默认就是1.25倍缩放 -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.25">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+
+<style>
+  html,
+  body {
+    min-height: 600px;
+    min-width: 800px;
+  }
+
+  body {
+    /* 禁止页面滚动 */
+    overflow: hidden;
+  }
+</style>
+
+</html>
