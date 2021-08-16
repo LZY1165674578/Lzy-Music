@@ -14,8 +14,7 @@ module.exports = {
     devServer: {
         proxy: {
             '/api': {
-                // target: 'https://www.codeman.store',
-                target: 'https://lzy.vercel.app/',
+                target: 'https://lzy.vercel.app',
                 changeOrigin: true,
                 ws: true,
                 pathRewrite: {
