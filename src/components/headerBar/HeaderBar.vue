@@ -14,6 +14,7 @@
           trigger="focus"
         >
           <el-input
+            class="topinput"
             placeholder="请输入内容"
             prefix-icon="el-icon-search"
             size="mini"
@@ -460,7 +461,9 @@ export default {
 .left img {
   width: 100%;
 }
-
+.topinput{
+width: 100%;
+}
 .center {
   display: flex;
   align-items: center;
